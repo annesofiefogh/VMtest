@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/getMessage")
     public ResponseEntity<Hello> getMessage(){
-        Hello message = new Hello("Hello from server");
+        Hello message = new Hello("Hello from server!");
         helloRepository.save(message);
         return new ResponseEntity<>(message, HttpStatus.OK);
     }
