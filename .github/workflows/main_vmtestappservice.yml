@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'VMtestAppService'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DF3660426E9B477E8F628BE7A2D9890F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_760FE06A81BA483F88E8B7104474ED95 }}
           package: '*.jar'
